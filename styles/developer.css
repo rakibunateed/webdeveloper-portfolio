@@ -38,8 +38,7 @@ nav > ul{
 }
 nav li{
     list-style: none;
-    margin-left: 50px;
-    
+    margin-left: 50px;  
     
 }
 nav a {
@@ -51,8 +50,6 @@ nav a {
     background-image: url(../images/header_bg.png),url(../images/developer.png);
     background-repeat: no-repeat;
     background-position:bottom right,bottom left;
-    padding-bottom: 20px,20px;
-  
     
 }
 /* banner section */
@@ -102,9 +99,7 @@ font-size: 18px;
 font-weight: 400;
 margin-bottom: 30px;
 
-
 }
-
 
 /* main section styles */
 main section{
