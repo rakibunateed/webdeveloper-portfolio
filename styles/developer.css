@@ -48,9 +48,11 @@ nav a {
 }
 .header{
     background-color: #FFF8F3;;
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position:bottom right;
+    background-position:bottom right,bottom left;
+    padding-bottom: 20px,20px;
+  
     
 }
 /* banner section */
@@ -79,12 +81,6 @@ nav a {
     width: 584px;
 height: 676px;
 }
-/* .banner-pic2{
-    color:rgba(24, 24, 24, 0.15);
-font-size: 100px;
-font-weight: 700;
-background-position: bottom left;
-} */
 .banner-greeting{
     font-size: 45px;
     color: #474747;
@@ -95,7 +91,8 @@ background-position: bottom left;
 {
     font-size: 85px;
     font-weight: 700;
-    margin-top: 5px;
+    margin:5px 0 20px 0;
+   
     
 }
 .banner-pera{
@@ -103,7 +100,8 @@ background-position: bottom left;
     color:#757575;
 font-size: 18px;
 font-weight: 400;
-padding-top: 30px;
+margin-bottom: 30px;
+
 
 }
 
@@ -223,4 +221,31 @@ font-weight: 400;
 }
 .download-cv{
     text-align: center;
+    margin-bottom: 113px;
+}
+
+
+/* footer styles */
+
+footer{
+    display: flex;
+    gap: 117px;
+    background: #FFF8F3;
+    padding: 130px 230px;
+}
+.social-links a{
+    margin-left: 15px;
+}
+.footer-column{
+    width: 50%;
+    
+}
+.contact input[type="text"], .contact input[type="email"],textarea{
+    display: block;
+    border-radius: 5px;
+background:  #FFF;
+border: none;
+margin-bottom: 25px;
+padding: 18px 35px;
+width: 100%;
 }
