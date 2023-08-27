@@ -197,3 +197,30 @@ padding: 0 45px 45px 0;
 font-size: 30px;
 font-weight: 700;
 }
+.resume-container{
+    display: flex;
+    gap: 60px;
+    margin: 70px 230px;
+}
+.resume-item-title{
+    color:#474747;
+
+font-size: 25px;
+font-weight: 700;
+}
+.resume-item-info{
+    color:#757575;
+font-size: 20px;
+font-weight: 600;
+}
+.resume-item-description{
+    color: #757575;
+font-size: 16px;
+font-weight: 400;
+}
+.resume-container hr{
+    margin: 30px 0;
+}
+.download-cv{
+    text-align: center;
+}
